@@ -4,11 +4,11 @@ manggaDibeli = int(input("Berapa Kilo Mangga Yg Dibeli : "))
 manggisDibeli = int(input("Berapa Kilo Manggis Yg Dibeli : "))
 durenDibeli = int(input("Berapa Buah Duren Yg Dibeli : "))
 
-hargaJeruk = 15000
-hargaApel = 30000
-hargaMangga = 20000
-hargaManggis = 7000
-hargaDuren = 50000
+hargaJeruk = 15.000
+hargaApel = 30.000
+hargaMangga = 20.000
+hargaManggis = 7.000
+hargaDuren = 50.000
 
 totalJeruk = hargaJeruk * jerukDibeli 
 totalApel = hargaApel * apelDibeli
@@ -18,10 +18,10 @@ totalDuren = hargaDuren * durenDibeli
 
 totalBelanja = totalJeruk + totalApel + totalMangga + totalManggis + totalDuren
 
-print("Total Yg Anda Harus Bayar Adalah : " + str(totalBelanja))
-print(str(jerukDibeli) + (" Kilo Jeruk : ") + str(totalJeruk))
-print(str(apelDibeli) + (" Kilo Apel : ") + str(totalApel))
-print(str(manggaDibeli) + (" Kilo Mangga : ") + str(totalMangga))
-print(str(manggisDibeli) + (" Kilo Manggis : ") + str(totalManggis))
-print(str(durenDibeli) + (" Buah Duren : ") + str(totalDuren))
-print("Total belanja Anda : " + str(totalBelanja))
+print("Total Yg Anda Harus Bayar Adalah : %.3f"%(totalBelanja))
+print(str(jerukDibeli) + (" Kilo Jeruk : %.3f"%(totalJeruk)))
+print(str(apelDibeli) + (" Kilo Apel : %.3f"%(totalApel)))
+print(str(manggaDibeli) + (" Kilo Mangga : %.3f"%(totalMangga)))
+print(str(manggisDibeli) + (" Kilo Manggis : %.3f"%(totalManggis)))
+print(str(durenDibeli) + (" Buah Duren : %.3f"%(totalDuren)))
+print("Total belanja Anda : %.3f"%(totalBelanja))
